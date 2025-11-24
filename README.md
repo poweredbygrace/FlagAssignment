@@ -1,16 +1,36 @@
-# React + Vite
+# 🌍 Flags of the Nations of the World
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Explore countries around the world through their flags and detailed information with this app built with React.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Browse All Countries**: View flags and information for all countries worldwide
+- **Smart Search**: Search for countries by name with real-time results
+- **Detailed Overlays**: Click on any country card to see detailed information including:
+  - Capital city
+  - Geographic region
+  - Total area
+  - Languages spoken
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+Visit the live application: [https://flagcards.netlify.app/](https://flagcards.netlify.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React** - Frontend framework
+- **REST Countries API** - Country data source
+- **Vite** - Build tool and development server
+
+
+## 🎯 How to Use
+
+1. **Browse Countries**: Scroll through the grid of country cards displaying flags and names
+2. **Search**: Use the search bar at the top to find specific countries
+3. **View Details**: Click on any country card or the "View Details" button to open a modal with comprehensive information
+4. **Toggle Theme**: Click the theme button in the bottom-right corner to switch between light and dark modes
+
+
+**Note**: This application requires an internet connection to fetch country data from the REST Countries API.
